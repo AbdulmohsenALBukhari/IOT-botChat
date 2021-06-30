@@ -1,0 +1,1679 @@
+{
+  "intents": [
+    {
+      "intent": "استخدام_الموقع",
+      "examples": [
+        {
+          "text": "كيف استخدم الموقع"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "الاضافات_في_وجبتك",
+      "examples": [
+        {
+          "text": "اضافتك"
+        },
+        {
+          "text": "ايش الاضافات اللي تحبها مع وجبتك"
+        },
+        {
+          "text": "ايش تحب تضيف على الوجبه"
+        },
+        {
+          "text": "ايش تضيف لوجبتك"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "ترحيب",
+      "examples": [
+        {
+          "text": "السلام عليطك"
+        },
+        {
+          "text": "السلام عليكم"
+        },
+        {
+          "text": "اهلا"
+        },
+        {
+          "text": "هاي"
+        },
+        {
+          "text": "هلا"
+        },
+        {
+          "text": "هلو"
+        },
+        {
+          "text": "هولا"
+        },
+        {
+          "text": "هيلو"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "خلاص",
+      "examples": [
+        {
+          "text": "خلاص"
+        }
+      ]
+    },
+    {
+      "intent": "دردشة",
+      "examples": [
+        {
+          "text": "دردشة"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "رابط_قيت_هب",
+      "examples": [
+        {
+          "text": "(github) رابط الـ"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "فريقك_المفضل",
+      "examples": [
+        {
+          "text": "ايش تشجع"
+        },
+        {
+          "text": "ايش فريقك المفضل"
+        },
+        {
+          "text": "تشجع ايش"
+        },
+        {
+          "text": "فريق"
+        },
+        {
+          "text": "فريقك"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "كرة_قدم",
+      "examples": [
+        {
+          "text": "كرة قدم"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "كيف_تقدر_تساعدني",
+      "examples": [
+        {
+          "text": "اريد المساعده"
+        },
+        {
+          "text": "النجده"
+        },
+        {
+          "text": "خدماتك"
+        },
+        {
+          "text": "ساعدني"
+        },
+        {
+          "text": "كيف تقدر تساعدني"
+        },
+        {
+          "text": "ممكن تخدمني"
+        },
+        {
+          "text": "ممكن خدمة"
+        },
+        {
+          "text": "ممكن خدمه"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "لا_شكرا",
+      "examples": [
+        {
+          "text": "لا شكرا"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "لاعبك_المفضل",
+      "examples": [
+        {
+          "text": "لاعب"
+        },
+        {
+          "text": "لاعبك"
+        },
+        {
+          "text": "ميسي افضل لاعب"
+        },
+        {
+          "text": "مين افضل لاعب"
+        },
+        {
+          "text": "مين افضل لاعب عندك"
+        },
+        {
+          "text": "مين لاعبك المفضل"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "لوحة_تحكم_بذراع_الروبوت",
+      "examples": [
+        {
+          "text": "لوحة تحكم بذراع الروبوت"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "لوحة_تحكم_بقاعدة_الروبوت",
+      "examples": [
+        {
+          "text": "لوحة تحكم قاعدة الروبوت"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "مطعم",
+      "examples": [
+        {
+          "text": "مطعمك المفضل"
+        }
+      ]
+    },
+    {
+      "intent": "مطعمك_المفضل",
+      "examples": [
+        {
+          "text": "ايش افضل مطعم عندك"
+        },
+        {
+          "text": "ايش مطعمك المفضل"
+        },
+        {
+          "text": "مطعمك"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "مع_السلامه",
+      "examples": [
+        {
+          "text": "مع السلامه"
+        }
+      ]
+    },
+    {
+      "intent": "منتخبك_المفضل",
+      "examples": [
+        {
+          "text": "ايش المنتخب اللي تشجعو"
+        },
+        {
+          "text": "ايش تشجع منتخب"
+        },
+        {
+          "text": "ايش منتخبك"
+        },
+        {
+          "text": "ايش منتخبك المفضل"
+        },
+        {
+          "text": "منتحبك"
+        },
+        {
+          "text": "منتخب"
+        },
+        {
+          "text": "منتخبك"
+        },
+        {
+          "text": "نتخبك"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "وجبتك_المفضلة",
+      "examples": [
+        {
+          "text": "ايش الوجبة اللي تحبها"
+        },
+        {
+          "text": "ايش وجبتك المفضلة"
+        },
+        {
+          "text": "وجبتك"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "webhooks": [
+    {
+      "url": "https://github.com/BashmailOmar/control-interface-WEBSITE-v2",
+      "name": "main_webhook",
+      "headers": []
+    }
+  ],
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "ايش فريقك المفضل",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "ايسي ميلان"
+              },
+              {
+                "text": "الاهلي"
+              },
+              {
+                "text": "برشلونه"
+              },
+              {
+                "text": "تشيلسي"
+              },
+              {
+                "text": "بايرن"
+              },
+              {
+                "text": "باريس"
+              },
+              {
+                "text": "مع الفايز"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_2_1625014840603",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1625020582811"
+      },
+      "conditions": "#فريقك_المفضل",
+      "dialog_node": "node_10_1625019545094",
+      "previous_sibling": "node_2_1625019563972"
+    },
+    {
+      "type": "standard",
+      "parent": "node_1_1625020582811",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1625021065056"
+      },
+      "conditions": "#خلاص",
+      "dialog_node": "node_10_1625020904715",
+      "previous_sibling": "node_4_1625020582812"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1625021065057",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1625021065056"
+      },
+      "conditions": "#خلاص",
+      "dialog_node": "node_10_1625021065057",
+      "previous_sibling": "node_9_1625021065057"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "اسالني عن الكورة"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1625021065056",
+      "conditions": "#كرة_قدم",
+      "dialog_node": "node_10_1625023289378"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "شكرا لمحادثتك لي. نتمنى لك يوما سعيدا"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#مع_السلامه || #لا_شكرا",
+      "dialog_node": "node_11_1625021410739",
+      "previous_sibling": "node_3_1625004982384"
+    },
+    {
+      "type": "standard",
+      "title": "مين لاعبك المفضل",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "ميسي"
+              },
+              {
+                "text": "كريستيانو"
+              },
+              {
+                "text": "السومة"
+              },
+              {
+                "text": "انا"
+              },
+              {
+                "text": "الاسطورة عمر باشميل"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_10_1625023289378",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1625020582811"
+      },
+      "conditions": "#لاعبك_المفضل",
+      "dialog_node": "node_11_1625023289379"
+    },
+    {
+      "type": "standard",
+      "title": "رابط القيت هب",
+      "output": {
+        "generic": [
+          {
+            "title": "https://github.com/BashmailOmar/control-interface-WEBSITE-v2",
+            "options": [],
+            "description": "GITHUB URL",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_3_1625004982384",
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1625008142169"
+      },
+      "conditions": "#رابط_قيت_هب",
+      "dialog_node": "node_1_1625007296795",
+      "previous_sibling": "node_2_1625006450339"
+    },
+    {
+      "type": "standard",
+      "title": "هل تريد خدمة اخرى ؟",
+      "output": {
+        "generic": [
+          {
+            "title": "هل تريد خدمة اخرى ؟",
+            "options": [
+              {
+                "label": "شرح طريقة استخدام الموقع",
+                "value": {
+                  "input": {
+                    "text": "كيف استخدم الموقع"
+                  }
+                }
+              },
+              {
+                "label": "دردشة",
+                "value": {
+                  "input": {
+                    "text": "دردشة"
+                  }
+                }
+              },
+              {
+                "label": "لا شكرا",
+                "value": {
+                  "input": {
+                    "text": "لا شكرا"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "node_1_1625008142169",
+      "previous_sibling": "مرحبا"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "عندك سؤال ولا خلاص"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1625014637148",
+      "conditions": "#كرة_قدم",
+      "dialog_node": "node_1_1625020582811",
+      "previous_sibling": "node_2_1625014840603"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "title": "خدمه ثانية ولا مع السلامه",
+            "options": [
+              {
+                "label": "كرة القدم",
+                "value": {
+                  "input": {
+                    "text": "كرة القدم"
+                  }
+                }
+              },
+              {
+                "label": "مطعمك المفضل",
+                "value": {
+                  "input": {
+                    "text": "مطعمك المفضل"
+                  }
+                }
+              },
+              {
+                "label": "مع السلامه",
+                "value": {
+                  "input": {
+                    "text": "مع السلامه"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#دردشة",
+      "dialog_node": "node_1_1625021065056",
+      "previous_sibling": "node_3_1625014637148"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "عندك سؤال ولا خلاص"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1625014637148",
+      "conditions": "#مطعم",
+      "dialog_node": "node_1_1625022720009",
+      "previous_sibling": "node_2_1625021729181"
+    },
+    {
+      "type": "standard",
+      "parent": "node_1_1625022720009",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1625021065056"
+      },
+      "conditions": "#خلاص",
+      "dialog_node": "node_1_1625022766245",
+      "previous_sibling": "node_4_1625022720010"
+    },
+    {
+      "type": "standard",
+      "title": "ايش منتخبك",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "ايطاليا"
+              },
+              {
+                "text": "فرنسا"
+              },
+              {
+                "text": "السعودية"
+              },
+              {
+                "text": "مع الفايز"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_10_1625023289378",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1625020582811"
+      },
+      "conditions": "#منتخبك_المفضل",
+      "dialog_node": "node_12_1625023289379",
+      "previous_sibling": "node_11_1625023289379"
+    },
+    {
+      "type": "standard",
+      "title": "ايش فريقك المفضل",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "ايسي ميلان"
+              },
+              {
+                "text": "الاهلي"
+              },
+              {
+                "text": "برشلونه"
+              },
+              {
+                "text": "تشيلسي"
+              },
+              {
+                "text": "بايرن"
+              },
+              {
+                "text": "باريس"
+              },
+              {
+                "text": "مع الفايز"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_10_1625023289378",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1625020582811"
+      },
+      "conditions": "#فريقك_المفضل",
+      "dialog_node": "node_13_1625023289379",
+      "previous_sibling": "node_12_1625023289379"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "اسالني عن المطاعم"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1625021065056",
+      "conditions": "#مطعم",
+      "dialog_node": "node_14_1625023316795",
+      "previous_sibling": "node_6_1625021065057"
+    },
+    {
+      "type": "standard",
+      "title": "ايش مطعمك المفضل",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "البيك"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_14_1625023316795",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1625023221645"
+      },
+      "conditions": "#مطعمك_المفضل",
+      "dialog_node": "node_15_1625023316795"
+    },
+    {
+      "type": "standard",
+      "title": "ايش وجبتك المفضله",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "صحن مسحب"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_14_1625023316795",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1625023221645"
+      },
+      "conditions": "#وجبتك_المفضلة",
+      "dialog_node": "node_16_1625023316795",
+      "previous_sibling": "node_15_1625023316795"
+    },
+    {
+      "type": "standard",
+      "title": "ايش الاضافات اللي تحبها ف وجبتك",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "ثوم و كوكتيل و حمص"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_14_1625023316795",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1625023221645"
+      },
+      "conditions": "#الاضافات_في_وجبتك",
+      "dialog_node": "node_17_1625023316795",
+      "previous_sibling": "node_16_1625023316795"
+    },
+    {
+      "type": "standard",
+      "title": "لوحة تحكم بقاعدة الروبوت",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "اختر الاتجاه اللذي تريد من الروبوت التوجه اليه"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "سيتحرك الروبوت نحو الاتجاه المطلوب"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1625004982384",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1625008142169"
+      },
+      "conditions": "#لوحة_تحكم_بقاعدة_الروبوت",
+      "dialog_node": "node_2_1625006450339",
+      "previous_sibling": "node_9_1625005222199"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "اسالني عن الكورة"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1625014637148",
+      "conditions": "#كرة_قدم",
+      "dialog_node": "node_2_1625014840603"
+    },
+    {
+      "type": "standard",
+      "title": "ايش منتخبك",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "ايطاليا"
+              },
+              {
+                "text": "فرنسا"
+              },
+              {
+                "text": "السعودية"
+              },
+              {
+                "text": "مع الفايز"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_2_1625014840603",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1625020582811"
+      },
+      "conditions": "#منتخبك_المفضل",
+      "dialog_node": "node_2_1625019563972",
+      "previous_sibling": "node_3_1625019586882"
+    },
+    {
+      "type": "standard",
+      "title": "مين لاعبك المفضل",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "ميسي"
+              },
+              {
+                "text": "كريستيانو"
+              },
+              {
+                "text": "السومة"
+              },
+              {
+                "text": "انا"
+              },
+              {
+                "text": "الاسطورة عمر باشميل"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_1_1625020582811",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1625020582811"
+      },
+      "conditions": "#لاعبك_المفضل",
+      "dialog_node": "node_2_1625020582812"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "اسالني عن المطاعم"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1625014637148",
+      "conditions": "#مطعم",
+      "dialog_node": "node_2_1625021729181",
+      "previous_sibling": "node_1_1625020582811"
+    },
+    {
+      "type": "standard",
+      "title": "ايش مطعمك المفضل",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "البيك"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1625022720009",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1625022720009"
+      },
+      "conditions": "#مطعمك_المفضل",
+      "dialog_node": "node_2_1625022720010"
+    },
+    {
+      "type": "standard",
+      "title": "طريقة استخدام الموقع",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "كيفية استخدام الموقع"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "اختر لوحة التحكم الذي تريد طريقة استخدامها",
+            "options": [
+              {
+                "label": " لوحة تحكم ذراع الروبوت",
+                "value": {
+                  "input": {
+                    "text": " لوحة تحكم ذراع الروبوت"
+                  }
+                }
+              },
+              {
+                "label": "لوحة تحكم قاعدة الروبوت",
+                "value": {
+                  "input": {
+                    "text": "لوحة تحكم قاعدة الروبوت"
+                  }
+                }
+              },
+              {
+                "label": "(github) رابط الـ",
+                "value": {
+                  "input": {
+                    "text": "(github) رابط الـ"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#استخدام_الموقع",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_3_1625004982384",
+      "previous_sibling": "node_1_1625008142169"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "title": "عن ايش حابب تتكلم ؟",
+            "options": [
+              {
+                "label": "كرة القدم",
+                "value": {
+                  "input": {
+                    "text": "كرة القدم"
+                  }
+                }
+              },
+              {
+                "label": "مطعمك المفضل",
+                "value": {
+                  "input": {
+                    "text": "مطعمك المفضل"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#دردشة",
+      "dialog_node": "node_3_1625014637148",
+      "previous_sibling": "node_11_1625021410739"
+    },
+    {
+      "type": "standard",
+      "title": "مين لاعبك المفضل",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "ميسي"
+              },
+              {
+                "text": "كريستيانو"
+              },
+              {
+                "text": "السومة"
+              },
+              {
+                "text": "انا"
+              },
+              {
+                "text": "الاسطورة عمر باشميل"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_2_1625014840603",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1625020582811"
+      },
+      "conditions": "#لاعبك_المفضل",
+      "dialog_node": "node_3_1625019586882"
+    },
+    {
+      "type": "standard",
+      "title": "ايش منتخبك",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "ايطاليا"
+              },
+              {
+                "text": "فرنسا"
+              },
+              {
+                "text": "السعودية"
+              },
+              {
+                "text": "مع الفايز"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_1_1625020582811",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1625020582811"
+      },
+      "conditions": "#منتخبك_المفضل",
+      "dialog_node": "node_3_1625020582812",
+      "previous_sibling": "node_2_1625020582812"
+    },
+    {
+      "type": "standard",
+      "title": "ايش مطعمك المفضل",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "البيك"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1625021729181",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1625022720009"
+      },
+      "conditions": "#مطعمك_المفضل",
+      "dialog_node": "node_3_1625021902647"
+    },
+    {
+      "type": "standard",
+      "title": "ايش وجبتك المفضله",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "صحن مسحب"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1625022720009",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1625022720009"
+      },
+      "conditions": "#وجبتك_المفضلة",
+      "dialog_node": "node_3_1625022720010",
+      "previous_sibling": "node_2_1625022720010"
+    },
+    {
+      "type": "standard",
+      "title": "ايش فريقك المفضل",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "ايسي ميلان"
+              },
+              {
+                "text": "الاهلي"
+              },
+              {
+                "text": "برشلونه"
+              },
+              {
+                "text": "تشيلسي"
+              },
+              {
+                "text": "بايرن"
+              },
+              {
+                "text": "باريس"
+              },
+              {
+                "text": "مع الفايز"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_1_1625020582811",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1625020582811"
+      },
+      "conditions": "#فريقك_المفضل",
+      "dialog_node": "node_4_1625020582812",
+      "previous_sibling": "node_3_1625020582812"
+    },
+    {
+      "type": "standard",
+      "title": "ايش الاضافات اللي تحبها ف وجبتك",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "ثوم و كوكتيل و حمص"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1625022720009",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1625022720009"
+      },
+      "conditions": "#الاضافات_في_وجبتك",
+      "dialog_node": "node_4_1625022720010",
+      "previous_sibling": "node_3_1625022720010"
+    },
+    {
+      "type": "standard",
+      "title": "ايش الاضافات اللي تحبها ف وجبتك",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "ثوم و كوكتيل و حمص"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1625021729181",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1625022720009"
+      },
+      "conditions": "#الاضافات_في_وجبتك",
+      "dialog_node": "node_5_1625021919377",
+      "previous_sibling": "node_6_1625021906015"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "عندك سؤال ولا خلاص"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1625021065056",
+      "conditions": "#مطعم",
+      "dialog_node": "node_5_1625023221645",
+      "previous_sibling": "node_14_1625023316795"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "اكتب زي الناس لو سمحت. ولا راح ارجعك كل شويا"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "مرحبا"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_5_1625024291494",
+      "previous_sibling": "node_1_1625021065056"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "عندك سؤال ولا خلاص"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1625021065056",
+      "conditions": "#كرة_قدم",
+      "dialog_node": "node_6_1625021065057",
+      "previous_sibling": "node_10_1625023289378"
+    },
+    {
+      "type": "standard",
+      "title": "ايش وجبتك المفضله",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "صحن مسحب"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1625021729181",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1625022720009"
+      },
+      "conditions": "#وجبتك_المفضلة",
+      "dialog_node": "node_6_1625021906015",
+      "previous_sibling": "node_3_1625021902647"
+    },
+    {
+      "type": "standard",
+      "title": "ايش مطعمك المفضل",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "البيك"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1625023221645",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1625023221645"
+      },
+      "conditions": "#مطعمك_المفضل",
+      "dialog_node": "node_6_1625023221647"
+    },
+    {
+      "type": "standard",
+      "title": "مين لاعبك المفضل",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "ميسي"
+              },
+              {
+                "text": "كريستيانو"
+              },
+              {
+                "text": "السومة"
+              },
+              {
+                "text": "انا"
+              },
+              {
+                "text": "الاسطورة عمر باشميل"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_6_1625021065057",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1625021065057"
+      },
+      "conditions": "#لاعبك_المفضل",
+      "dialog_node": "node_7_1625021065057"
+    },
+    {
+      "type": "standard",
+      "title": "ايش وجبتك المفضله",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "صحن مسحب"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1625023221645",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1625023221645"
+      },
+      "conditions": "#وجبتك_المفضلة",
+      "dialog_node": "node_7_1625023221647",
+      "previous_sibling": "node_6_1625023221647"
+    },
+    {
+      "type": "standard",
+      "title": "ايش منتخبك",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "ايطاليا"
+              },
+              {
+                "text": "فرنسا"
+              },
+              {
+                "text": "السعودية"
+              },
+              {
+                "text": "مع الفايز"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_6_1625021065057",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1625021065057"
+      },
+      "conditions": "#منتخبك_المفضل",
+      "dialog_node": "node_8_1625021065057",
+      "previous_sibling": "node_7_1625021065057"
+    },
+    {
+      "type": "standard",
+      "title": "ايش الاضافات اللي تحبها ف وجبتك",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "ثوم و كوكتيل و حمص"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1625023221645",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1625023221645"
+      },
+      "conditions": "#الاضافات_في_وجبتك",
+      "dialog_node": "node_8_1625023221647",
+      "previous_sibling": "node_7_1625023221647"
+    },
+    {
+      "type": "standard",
+      "title": "لوحة تحكم بذراع الروبوت",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "يمكنك ادخال قيم في المحركات"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "ثم الضغط على رز SAVE"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "سيتم تغيير وضعية ذراع الروبوت بحسب القيم المدخله"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1625004982384",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1625008142169"
+      },
+      "conditions": "#لوحة_تحكم_بذراع_الروبوت",
+      "dialog_node": "node_9_1625005222199"
+    },
+    {
+      "type": "standard",
+      "title": "ايش فريقك المفضل",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "ايسي ميلان"
+              },
+              {
+                "text": "الاهلي"
+              },
+              {
+                "text": "برشلونه"
+              },
+              {
+                "text": "تشيلسي"
+              },
+              {
+                "text": "بايرن"
+              },
+              {
+                "text": "باريس"
+              },
+              {
+                "text": "مع الفايز"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_6_1625021065057",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1625021065057"
+      },
+      "conditions": "#فريقك_المفضل",
+      "dialog_node": "node_9_1625021065057",
+      "previous_sibling": "node_8_1625021065057"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1625023221645",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1625021065056"
+      },
+      "conditions": "#خلاص",
+      "dialog_node": "node_9_1625023221647",
+      "previous_sibling": "node_8_1625023221647"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1625007296795",
+      "disabled": true,
+      "conditions": "anything_else",
+      "dialog_node": "response_3_1625013874884",
+      "previous_sibling": "response_9_1625013873472"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "https://github.com/BashmailOmar/control-interface-WEBSITE-v2",
+            "options": [],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1625007296795",
+      "disabled": true,
+      "conditions": "$webhook_result_1",
+      "dialog_node": "response_9_1625013873472"
+    },
+    {
+      "type": "standard",
+      "title": "مرحبا",
+      "output": {
+        "generic": [
+          {
+            "title": "مرحبا، كيف يمكنني مساعدتك؟",
+            "options": [
+              {
+                "label": "شرح طريقة استخدام الموقع",
+                "value": {
+                  "input": {
+                    "text": "كيف استخدم الموقع"
+                  }
+                }
+              },
+              {
+                "label": "دردشة",
+                "value": {
+                  "input": {
+                    "text": "دردشة"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "مرحبا"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "disambiguation": {
+      "prompt": ":هل قصدت",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "كل ما سبق خطأ"
+    },
+    "human_agent_assist": {
+      "prompt": ":هل قصدت"
+    }
+  },
+  "learning_opt_out": false,
+  "name": "تحدث",
+  "language": "ar",
+  "description": ""
+}
