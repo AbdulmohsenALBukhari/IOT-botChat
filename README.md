@@ -6,6 +6,6 @@ chat bot يحتوي على ملف  json و مجلد
 
 # رابط الموقع
 
-https://abdulmohsenalbokhari.github.io/IOT-botChat/
+( https://abdulmohsenalbokhari.github.io/IOT-botChat/ )
 
-<img srs="img/shortcut.gif" width="500" >
+![](img/shortcut.gif)
